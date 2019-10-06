@@ -1,0 +1,128 @@
+@media screen and (min-width: 801px){
+  .wrapper{
+    max-width: 1000px;
+  }
+
+  .title{
+    font-size: 34px;
+  }
+
+  .nav{
+    &_wrap{
+      flex-direction: row;
+      margin: 0 5px 30px;
+    }
+    &_item{
+      height: 45px;
+      line-height: 45px;
+      border: none;
+      width: 100px;
+      margin: 0 5px;
+      padding: 0;
+      text-align: center;
+      &--home{
+        order: 1;
+       
+      }
+      &--contacts{
+        order: 2;
+       
+      }
+      &--aboutme{
+        order: 3;
+        
+      }
+      &--partners{
+        order: 4;
+        
+      }
+      &--decor{
+        display: block;
+        order: 5;
+        flex-grow: 2;
+        opacity: .4;
+        
+      }
+      &--signin{
+        order: 6;
+        
+      }
+    }
+  }
+
+  .maincontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    &_group{
+      width: 50%;
+      height: 550px;
+      border: 10px solid transparent;
+      box-sizing: border-box;
+      &--num1{
+        order: 1;
+      }
+      &--num2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: 3;
+      }
+      &--num3{
+        order: 2;
+      }
+      &--num4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 4;
+      }
+    }
+  }
+  .contentBox{
+    margin: 0;
+    &--post1{
+      height: 100%;
+    }
+    &--post2,
+    &--post3,
+    &--post4{
+      height: 160px;
+    }
+    &--post5{
+      height: 100%;
+    }
+    &--post6{
+      height: 100%;
+      width: 50%;
+      border-right: 5px solid #3cb371;
+      box-sizing: border-box;
+    }
+    &--post7{
+      height: 50%;
+    }
+    &--post7,
+    &--post8,
+    &--post9{
+      max-width: 50%;
+      border-left: 5px solid #3cb371;
+      box-sizing: border-box;
+    }
+    &--post8{
+      border-top: 10px solid #3cb371;
+      border-bottom: 10px solid #3cb371;
+      box-sizing: border-box;
+    }
+    &--post8,
+    &--post9{
+      height: 25%;
+    }
+    &--post6 > &_descr,
+    &--post7 > &_descr,
+    &--post8 > &_descr,
+    &--post9 > &_descr{
+      padding: 10px;
+    }
+  }
+}

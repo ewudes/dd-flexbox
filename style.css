@@ -82,4 +82,91 @@ body {
     justify-content: space-between;
     font-size: 12px; }
 
+@media screen and (min-width: 801px) {
+  .wrapper {
+    max-width: 1000px; }
+
+  .title {
+    font-size: 34px; }
+
+  .nav_wrap {
+    flex-direction: row;
+    margin: 0 5px 30px; }
+  .nav_item {
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    width: 100px;
+    margin: 0 5px;
+    padding: 0;
+    text-align: center; }
+    .nav_item--home {
+      order: 1; }
+    .nav_item--contacts {
+      order: 2; }
+    .nav_item--aboutme {
+      order: 3; }
+    .nav_item--partners {
+      order: 4; }
+    .nav_item--decor {
+      display: block;
+      order: 5;
+      flex-grow: 2;
+      opacity: .4; }
+    .nav_item--signin {
+      order: 6; }
+
+  .maincontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    .maincontent_group {
+      width: 50%;
+      height: 550px;
+      border: 10px solid transparent;
+      box-sizing: border-box; }
+      .maincontent_group--num1 {
+        order: 1; }
+      .maincontent_group--num2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: 3; }
+      .maincontent_group--num3 {
+        order: 2; }
+      .maincontent_group--num4 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 4; }
+
+  .contentBox {
+    margin: 0; }
+    .contentBox--post1 {
+      height: 100%; }
+    .contentBox--post2, .contentBox--post3, .contentBox--post4 {
+      height: 160px; }
+    .contentBox--post5 {
+      height: 100%; }
+    .contentBox--post6 {
+      height: 100%;
+      width: 50%;
+      border-right: 5px solid #3cb371;
+      box-sizing: border-box; }
+    .contentBox--post7 {
+      height: 50%; }
+    .contentBox--post7, .contentBox--post8, .contentBox--post9 {
+      max-width: 50%;
+      border-left: 5px solid #3cb371;
+      box-sizing: border-box; }
+    .contentBox--post8 {
+      border-top: 10px solid #3cb371;
+      border-bottom: 10px solid #3cb371;
+      box-sizing: border-box; }
+    .contentBox--post8, .contentBox--post9 {
+      height: 25%; }
+    .contentBox--post6 > .contentBox_descr, .contentBox--post7 > .contentBox_descr, .contentBox--post8 > .contentBox_descr, .contentBox--post9 > .contentBox_descr {
+      padding: 10px; } }
+
 /*# sourceMappingURL=style.css.map */
