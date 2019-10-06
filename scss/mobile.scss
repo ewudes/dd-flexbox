@@ -1,12 +1,29 @@
-.title{
-  font-size: 26px;
-  margin: 50px auto;
+html, body, ul, li, h1{
+  margin: 0;
+  padding: 0;
+}
+
+ul, li{
+  list-style-type: none;
+}
+
+body{
+  background-color: #3cb371;
+  font-family: 'Roboto', sans-serif;
 }
 
 .wrapper{
   max-width: 800px;
   margin: 0 20px;
   font-size: 14px;
+  color: #3d3d3d;
+}
+
+.title{
+  font-size: 26px;
+  margin: 50px auto;
+  color: #fff;
+  text-align: center;
 }
 
 .nav{
@@ -43,8 +60,14 @@
   }
 }
 
+.maincontent{
+  display: flex;
+  flex-direction: column;
+}
+
 .contentBox{
   margin-bottom: 10px;
+  background-color: #fff;
   &_pic{
     width: 100%;
     &--post1{
@@ -84,4 +107,3 @@
     font-size: 12px;
   }
 }
-
