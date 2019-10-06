@@ -1,0 +1,87 @@
+.title{
+  font-size: 26px;
+  margin: 50px auto;
+}
+
+.wrapper{
+  max-width: 800px;
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+.nav{
+  &_wrap{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  &_item{
+    background-color: #fff;
+    height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-left: 25px;
+    line-height: 40px;
+    &--home{
+      order: 2;
+    }
+    &--contacts{
+      order: 3;
+    }
+    &--aboutme{
+      order: 4;
+    }
+    &--partners{
+      order: 5;
+    }
+    &--decor{
+      display: none;
+    }
+    &--signin{
+      order: 1;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.contentBox{
+  margin-bottom: 10px;
+  &_pic{
+    width: 100%;
+    &--post1{
+      max-height: 470px;
+    }
+    &--post5{
+      max-height: 530px;
+    }
+    &--post6,
+    &--post7{
+      max-height: 400px;
+    }
+  }
+  &--post1{
+    max-height: 610px;
+  }
+  &--post2,
+  &--post3,
+  &--post4,
+  &--post8,
+  &--post9{
+    min-height: 115px;
+  }
+  &_descr{
+    padding: 20px;
+  }
+  &_descrTitle{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &_descrText{
+    margin: 15px 0;
+  }
+  &_descrMeta{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+}
+
