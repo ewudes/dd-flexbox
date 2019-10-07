@@ -4,6 +4,12 @@
     margin: auto;
   }
 
+  .nav{
+    &_wrap{
+      margin: 0 10px 30px;
+    }
+  }
+
   .maincontent{
     flex-direction: column;
     margin: 0 5px;
