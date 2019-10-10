@@ -4,17 +4,10 @@
     margin: auto;
   }
 
-  .nav{
-    &_wrap{
-      margin: 0 10px 30px;
-    }
-  }
-
   .maincontent{
     flex-direction: column;
     margin: 0 5px;
     height: 960px;
-    justify-content: flex-start;
     &_group{
       border: 10px solid transparent;
       box-sizing: border-box;
@@ -22,45 +15,32 @@
         display: flex;
         width: 25%;
         height: 390px;
-        flex-grow: 1;
         order: 1;
       }
       &--num2{
         width: 25%;
         height: 500px;
-        flex-grow: 1;
         order: 2;
       }
       &--num3{
         display: flex;
         width: 75%;
-        // height: 300px;
-        flex-grow: 0;
+        height: 300px;
         order: 3;
       }
       &--num4{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         width: 75%;
-        // height: 570px;   
-        flex-grow: 0;
-        // margin-top: 20px;
+        height: 570px;
+        margin-top: 20px;
         order: 4;
       }
     }
   }
   .contentBox{
-    &--post2{
-      height: 30%;
-    }
-    &--post3{
-      height: 30%;
-    }
-    &--post4{
-      height: 30%;
-    }
     &--post5{
       display: flex;
       flex-direction: row-reverse;
@@ -72,19 +52,13 @@
       height: 570px;
     }
     &--post7{
-      display: flex;
-      flex-direction: column;
-      flex: 1 0 auto;
       width: 30%;
-      
     }
     &--post8{
       width: 30%;
-      // height: 25%;
     }
     &--post9{
       width: 30%;
-      // height: 25%;
     }
     &_pic{
       &--post5{

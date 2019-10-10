@@ -81,9 +81,6 @@ body{
   background-color: #fff;
   &_pic{
     width: 100%;
-    &--post1{
-      max-height: 470px;
-    }
     &--post5{
       max-height: 530px;
     }
@@ -94,13 +91,6 @@ body{
   }
   &--post1{
     max-height: 610px;
-  }
-  &--post2,
-  &--post3,
-  &--post4,
-  &--post8,
-  &--post9{
-    min-height: 115px;
   }
   &_descr{
     padding: 20px;
