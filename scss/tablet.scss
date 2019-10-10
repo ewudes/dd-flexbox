@@ -59,7 +59,7 @@
     flex-wrap: wrap;
     &_group{
       width: 50%;
-      height: 550px;
+      // height: 550px;
       border: 10px solid transparent;
       box-sizing: border-box;
       &--num1{
@@ -96,6 +96,9 @@
       height: 100%;
     }
     &--post6{
+      display: flex;
+      flex-direction: column;
+      
       height: 100%;
       width: 50%;
       border-right: 5px solid #3cb371;
@@ -110,6 +113,7 @@
       max-width: 50%;
       border-left: 5px solid #3cb371;
       box-sizing: border-box;
+      order: 1;
     }
     &--post8{
       border-top: 10px solid #3cb371;
