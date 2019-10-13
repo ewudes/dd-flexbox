@@ -212,6 +212,8 @@ body {
         order: 4; }
   .contentBox {
     margin: 0; }
+    .contentBox--post2, .contentBox--post3, .contentBox--post4 {
+      height: 30%; }
     .contentBox--post5 {
       height: 100%; }
     .contentBox--post6 {

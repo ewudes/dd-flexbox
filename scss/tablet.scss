@@ -84,6 +84,11 @@
   }
   .contentBox{
     margin: 0;
+    &--post2,
+    &--post3,
+    &--post4{
+      height: 30%;;
+    }
     &--post5{
       height: 100%;
     }
