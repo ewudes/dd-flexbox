@@ -89,8 +89,6 @@ body {
       max-height: 530px; }
     .contentBox_pic--post6, .contentBox_pic--post7 {
       max-height: 400px; }
-  .contentBox--post1 {
-    max-height: 610px; }
   .contentBox_descr {
     padding: 20px; }
   .contentBox_descrTitle {
@@ -170,6 +168,9 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .maincontent_group {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       width: 50%;
       height: 550px;
       border: 10px solid transparent;
@@ -211,7 +212,27 @@ body {
         -ms-flex-order: 4;
         order: 4; }
   .contentBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 0; }
+    .contentBox_descr {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+      flex-grow: 2; }
+    .contentBox_descrMeta {
+      margin-top: auto; }
     .contentBox--post2, .contentBox--post3, .contentBox--post4 {
       height: 30%; }
     .contentBox--post5 {

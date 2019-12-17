@@ -58,6 +58,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     &_group{
+      display: flex;
       width: 50%;
       height: 550px;
       border: 10px solid transparent;
@@ -83,7 +84,17 @@
     }
   }
   .contentBox{
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    &_descr{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 2;
+    }
+    &_descrMeta{
+      margin-top: auto;
+    }
     &--post2,
     &--post3,
     &--post4{

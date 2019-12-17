@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alksghn/digitalDesign-flexbox.git"
+    "url": "git+https://github.com/alksghn/dd-flexbox.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alksghn/digitalDesign-flexbox/issues"
+    "url": "https://github.com/alksghn/dd-flexbox/issues"
   },
-  "homepage": "https://github.com/alksghn/digitalDesign-flexbox#readme",
+  "homepage": "https://github.com/alksghn/dd-flexbox#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",

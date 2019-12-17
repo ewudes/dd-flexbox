@@ -11,5 +11,13 @@
 * Все позиционирование элементов должно работать через Flexbox
 * Position, display, float - использовать только там, где по другому решить не получается
 * Проверяться будет в последних версиях Google Chrome, Firefox и IE11
- 
- [ДЕМО](https://alksghn.github.io/digitalDesign-flexbox/)
+***
+[ДЕМО](https://attray.github.io/dd-flexbox/)
+***
+### Для работы сборки у вас должны быть установлены:
+1.  npm
+2.  node.js
+### Как установить проект:
+1.  git clone URL
+2.  npm i
+3.  npm run gulp
